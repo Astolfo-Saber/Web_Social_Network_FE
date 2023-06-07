@@ -1,0 +1,66 @@
+@page
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "_LayoutAdmin";
+}
+<script src="~/assets/hm/dash-board.js"></script>
+<div class="content-wrapper" style="min-height: 865px;">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Dash Board</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item active"></li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="m-0">All Users</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title"id="count-users">10</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="m-0">All Posts</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title" id="count-posts">190</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="m-0">Posts exported in month</h5>
+                        </div>
+                        <div class="card-body">
+                            <h6 id="count-posts-per-month" class="card-title">190</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-6 -->
+            </div>
+            <!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+</div>
